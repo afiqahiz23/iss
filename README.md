@@ -9,4 +9,4 @@
 - run the artisan serve
 `php artisan serve`
 
-Open the browser on http://127.0.0.1:8080
+Open the browser on http://127.0.0.1:8080/location
