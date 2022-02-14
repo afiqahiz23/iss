@@ -29,19 +29,22 @@
 
 <body class="">
     <div class="">
-        <h1 class="">iss locations</h1>
+        <h1 class="">Where was the International Space Station (ISS)?</h1>
+        <h4 class="">The ISS orbits 400 km above the Earth at approximately 29,000 km/h. It is the third brightest object
+in our sky, making it possible to catch a glimpse of the ISS from ground level</h4>
         <form action="/location">
-
+            <h4 class="">Select past time and date to receive the city the ISS was over at that moment</h4>
             <div>
-                <label for="start_date">Select Date</label>
+                <label for="start_date">Select Date </label>
                 <input type="date" name="date">
             </div>
             <div>
-                <label for="time">Select Time</label>
+                <label for="time">Select Time </label>
                 <input type="time" name="time">
             </div>
             <button type="submit">Submit</button>
         </form>
+        <br>
         <table>
             <thead>
                 <tr>
@@ -49,7 +52,7 @@
                     <td>Time</td>
                     <td>Coordinates</td>
                     <td>Country Code</td>
-                    <td>Country/City</td>
+                    <td>Continent/City</td>
                 </tr>
             </thead>
             <tbody>
